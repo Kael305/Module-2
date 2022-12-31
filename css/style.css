@@ -1,0 +1,155 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: grey;
+}
+
+.header {
+  background-color: black;
+  color: rgb(12, 132, 212);
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-section {
+  padding-left: 10px;
+  width: 100px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#about-me,
+#work-tittle,
+#contact,
+#resume {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 800px; 
+}
+
+.hero-banner {
+  height: 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+#cool-banner { 
+  display: inline-block;
+  color: white;
+  margin-right: 20px;
+  margin-top: 150px;
+}
+
+.page-section {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  margin-right: 50px;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.aside-about,
+.aside-work,
+.aside-contact {
+  font-size: 50px;
+}
+
+#text,
+#work-info,
+#contact-info {
+  padding-left: 20px;
+  border-left-style: outset;
+}
+
+.surf {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: 0.15s;
+}
+
+.subset1,
+.subset2,
+.subset3,
+.subset4 {
+   border: 3px solid rgb(71, 190, 194);
+   margin-right: 20px;
+   height: 120px;
+   width: 350px;
+   margin-bottom: 20px;
+  
+}
+
+.report {
+  height: 350px;
+  border: 3px solid rgb(71, 190, 194);
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+#s5 {
+  width: 150px;
+  height: 68px;
+  background-color: lightblue;
+  color: gray;
+  position: relative;
+  margin-top: 100px;
+  padding-left: 8px; 
+}
+
+#s1,
+#s2,
+#s3,
+#s4 {
+  width: 150px;
+  height: 60px;
+  background-color: lightblue;
+  color: gray;
+  margin-top: 20px;
+  padding-left: 12px; 
+}
+
+.report:hover,
+.subset1:hover,
+.subset2:hover,
+.subset3:hover,
+.subset4:hover {
+  opacity: 0.6;
+} 
+
+
+
+#top {
+  font-size: 20px;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+#end {
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: large;
+  cursor: pointer;
+}
+
